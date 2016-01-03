@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2015-12-30T15:31:01 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="AurumReports" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="965b9d9c-f201-4bf5-af4e-c53e60447236">
+	<property name="com.jaspersoft.studio.data.sql.tables" value="Y29tbS5zbXNfZGF0YSAsMTUsMTUsMzQ3MzY5MmYtMmNhNi00NzgxLWIyNzMtODBjMmFiZmQ5MGQyOw=="/>
+	<queryString>
+		<![CDATA[SELECT *
+FROM comm.sms_data]]>
+	</queryString>
+	<field name="id" class="java.lang.Long">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="userId" class="java.lang.Long">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="mobileNumber" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="message" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="status" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="45" splitType="Stretch">
+			<staticText>
+				<reportElement x="210" y="10" width="130" height="30" uuid="c4039c3f-be20-4c71-ac2d-5dafbc5f865f"/>
+				<textElement>
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[AurumReports]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="15" width="100" height="30" uuid="85761536-9fe4-42ba-b95e-dccd2777feee"/>
+				<text><![CDATA[Id]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="15" width="100" height="30" uuid="1b7d6caa-fddf-4b92-b088-b57a410e6744"/>
+				<text><![CDATA[UserId]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="220" y="15" width="100" height="30" uuid="ea165315-a2e4-46ef-ae53-0e5f94d720c8"/>
+				<text><![CDATA[MobileNumber]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="330" y="15" width="100" height="30" uuid="a524454e-2b21-4ca0-86be-3c0047b4861f"/>
+				<text><![CDATA[Message]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="66" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="10" width="100" height="30" uuid="7e0ee7d8-f776-443c-adc9-a0946640162d"/>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="10" width="100" height="30" uuid="c678c250-e65d-4592-8aa4-ef7c69e41100"/>
+				<textFieldExpression><![CDATA[$F{userId}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="220" y="10" width="100" height="30" uuid="09722b7c-f975-4f64-a908-20c798a2a76e"/>
+				<textFieldExpression><![CDATA[$F{mobileNumber}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="330" y="10" width="100" height="30" uuid="411242eb-89ee-48d9-aefd-2d7478330eed"/>
+				<textFieldExpression><![CDATA[$F{message}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

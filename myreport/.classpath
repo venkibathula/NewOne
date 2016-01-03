@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Swapna/Downloads/poi-3.9.jar"/>
+	<classpathentry kind="lib" path="F:/Important Jars/mysql-connector-java-5.1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Swapna/Downloads/EasyXls-1.0.0.jar"/>
+	<classpathentry kind="lib" path="F:/Important Jars/jasperreports-5.1.0.jar"/>
+	<classpathentry kind="lib" path="F:/Important Jars/org-apache-commons-logging.jar"/>
+	<classpathentry kind="lib" path="F:/Important Jars/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="F:/Important Jars/commons-collections-3.2-sources.jar"/>
+	<classpathentry kind="lib" path="F:/Important Jars/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="lib" path="F:/Important Jars/groovy-all-2.4.4.jar"/>
+	<classpathentry kind="lib" path="F:/Important Jars/jasper-compiler-jdt-5.5.15.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
